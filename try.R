@@ -1,11 +1,11 @@
 library(jiebaR)
-cc= worker(stop="stop.txt",user="日本地名大全集.txt")
+cc= worker(stop="stop.txt",user="C:/Users/Student/Documents/finalproject/123.txt")
 cc[tmp]
 dd<-cc[tmp]
 tagger = worker("tag")
-tagger<=dd
+ee<-(tagger<=dd)
 ?worker
-
+segment(tmp,cc)
 
 
 ll=worker("keywords",topn=100)
